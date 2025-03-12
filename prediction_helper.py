@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
-model_path = 'artifacts/model.joblib'
+model_path = 'model.joblib'
 # Load the model and its components
 model_data = joblib.load(model_path)
 model = model_data['model']
